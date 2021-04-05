@@ -1,6 +1,4 @@
 /*
-Basado en :
-https://sultanbadri.github.io/virtual-library/
 
 DOCS:
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
@@ -8,11 +6,7 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 Overlays
 https://tympanus.net/codrops/2013/11/07/css-overlay-techniques/
 
-
-Otros Buenos ejemplos:
-
-https://zakarya-mks.github.io/my-library/
-https://mooniidev.github.io/library/
+ 
 */
 
 const newBook = document.querySelector('#new-book');
