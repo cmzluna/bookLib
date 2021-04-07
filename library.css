@@ -1,10 +1,10 @@
 :root {
   --white: #f3f3f3;
-  --blue: #8594b6;
-  --blue-over: #b3c0e1;
-  --complementary-blue: #786E55;
+  --blue: #6f489e;
+  --blue-over: #8d5cc9;
+  --complementary-blue: #4A2F6B;
   --blue-background: rgb(139, 152, 187);
-  --yellow-background: rgb(184, 183, 118);
+  --yellow-background: #b8b776;
 }
 
 html {
@@ -25,22 +25,41 @@ body {
 
 input {
 width: 100%;
-border: 0;
-padding: 4px;
+margin: 5px;
 display: block;
 font-size: 1rem;
+padding: 10px 4px;
+border: none;
+border-radius: 10px;
+}
+
+.boton-agregar {
+  width: 120px;
+  height: 45px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--complementary-blue);
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 1%;
+}
+ 
+.boton-agregar:hover {
+  background: var(--blue-over);
 }
 
 header {
   display: flex;
-  min-height: 5vh;
+  min-height: 2vh;
   background-color: var(--complementary-blue);
   color: var(--white);
   position: absolute;
   top: 0%;
   font-weight: bold;
     font-size: 3rem;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.2em;
   align-items: center;
   justify-content: space-around;
   width: 100%;
@@ -61,6 +80,7 @@ header {
   position: fixed;
   bottom: 5%;
   right: 5%;
+  
 }
 
 .close {
@@ -79,23 +99,25 @@ header {
     transition: 0.3s ease;
     padding: 1.5rem;
     margin-top: 0%;
-    box-shadow: 5px 5px 35px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 35px 5px rgba(0, 0, 0, 0.8);
     border-radius: 10px;
     width: 380px;
+    position: relative;
     z-index: 10000; 
     background: var(--yellow-background);
-}
+ }
 
 #container h1 {
-  color: var(--blue);
+  color: var(--white);
   text-align: center;
  
-  padding: 1rem;
+  background-color: var(--complementary-blue);
+  padding: .6rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin: -1rem -1rem 1rem -1rem;
-  font-size: 3rem;
-  font-weight: 100;
+  font-size: 2.2rem;
+  font-weight: 200;
 }
 
 

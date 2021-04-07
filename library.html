@@ -10,6 +10,7 @@
 </head>
  
 <body>
+    <script src="https://kit.fontawesome.com/be6f6f9a32.js"></script>
     <header>
         <h2>bookLib</h2>
         <div></div>
@@ -29,20 +30,21 @@
         <h1>New Book</h1>
         <div class="close">x</div>
         <form id="form" action="/" method="GET">
-            <label for="title">Title:</label>
+             
             <input type="text" id="title" name="title" placeholder="Book Title" autocomplete="off" required /><br />
-            <label for="author">Author:</label>
+             
             <input type="text" id="author" name="author" placeholder="Author" autocomplete="off" required /><br />
-            <label for="pages">Number of pages:</label>
+             
             <input type="number" id="pages" name="pages" placeholder="Pages" autocomplete="off" required /><br />
-            <label for="read">Read the book?</label><br />
+            <br />
             <select name="read" id="read">
                 <option value="Yes">Yes 😃</option>
                 <option value="No">No 😢</option>
             </select>
-            <br />
-            <input type="submit" value="Submit" />
+            <br>
+            
         </form>
+        <button class="boton-agregar"><i class="far fa-plus-square"></i> Add it!</button>
     </div>
 </section>
 
